@@ -22,7 +22,7 @@ class ColorPairGenerator implements ColorPairGeneratorService {
 
   // Not the best algorithm :D
   Color _getTextColor(int r, int g, int b) {
-    return r + g + b > (255).floor() ? Colors.black : Colors.white;
+    return r + g + b > (300).floor() ? Colors.black : Colors.white;
   }
 
   // As random generates numbers in range from 1 to "max", without subtracting
